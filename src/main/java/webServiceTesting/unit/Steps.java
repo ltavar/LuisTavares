@@ -1,4 +1,4 @@
-package webServiceTesting;
+package webServiceTesting.unit;
 
 
 import cucumber.api.java.en.Given;

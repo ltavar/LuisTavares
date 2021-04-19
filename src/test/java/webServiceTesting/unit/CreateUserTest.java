@@ -3,7 +3,6 @@ package webServiceTesting.unit;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import webServiceTesting.CreateUser;
 
 public class CreateUserTest {
 
@@ -22,6 +21,7 @@ public class CreateUserTest {
   public void setup() {
     createUser.setName("testName");
     createUser.setJob("testJob");
+    createUser.setSurname("testName autoSurname");
   }
 
   @Test
